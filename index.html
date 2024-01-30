@@ -4,8 +4,368 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
 </head>
-<body>
+<body class="ml-20 mr-20">
+    <header class="md:container md:mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      
+                     <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-3xl font-bold">Hockey <span class="text-red-600">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a><span class="text-red-600">Home</span></a></li>
+                      <li><a>About</a></li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn btn-error text-white">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
+        <!-- slider or carousel -->
+        <div class="carousel w-full">
+            <!-- slide1 -->
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="Hockey/Images/1.png" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <!-- slide2 -->
+            <div id="slide2" class="carousel-item relative w-full">
+                
+              <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <!-- slide3 -->
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <!-- slide4 -->
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+
+        <div class="">
+          <div class="hero  bg-black h-40 w-96 ml-96 ">
+            <div class="hero-content ">
+              <div class="">
+                <h1 class="text-xl text-white">Meet all the heroes from the field</h1>
+                <p class="py-6 text-gray-400">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    </header>
+    <main class="md:container md:mx-auto ">
+        <!-- section 1 -->
+        <section>
+            <div class="text-center mt-16">
+                <h2 class="btn btn-ghost text-3xl font-bold">Professional Hockeys Club</h2>
+                <p class="text-gray-400">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br>
+                    dolor. Purus urna in sit nullam proin. </p>
+
+            </div>
+            <div class="flex mt-16">
+                <div class="hero">
+                    <div class="hero-content text-center">
+                      <div class="">
+                        <div class="radial-progress text-error" style="--value:87;" role="progressbar">87%</div>
+                        <h1 class="text-xl font-bold">Prayer Facility</h1>
+                        <p class="py-6 text-gray-400">Amet consectetur. Condimentum
+                            <br> 
+                            dignissim adipiscing .</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hero ">
+                    <div class="hero-content text-center">
+                      <div class="">
+                        <div class="radial-progress text-success" style="--value:95;" role="progressbar">95%</div>
+                        <h1 class="text-xl font-bold">Experienced Coach</h1>
+                        <p class="py-6 text-gray-400">Amet consectetur. Condimentum
+                            <br> 
+                            dignissim adipiscing .</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hero ">
+                    <div class="hero-content text-center">
+                      <div class="">
+                        <div class="radial-progress text-warning" style="--value:90;" role="progressbar">90%</div>
+                        <h1 class="text-xl font-bold">Senior Player</h1>
+                        <p class="py-6 text-gray-400">Amet consectetur. Condimentum
+                            <br> 
+                            dignissim adipiscing .</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hero ">
+                    <div class="hero-content text-center">
+                      <div class="">
+                        <div class="radial-progress text-info" style="--value:80;" role="progressbar">80%</div>
+                        <h1 class="text-xl font-bold">Training Ground</h1>
+                        <p class="py-6 text-gray-400">Amet consectetur. Condimentum
+                            <br> 
+                            dignissim adipiscing .</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <!-- section 2 -->
+        <section>
+            <div class="text-center mt-16 mb-16">
+                <h1 class="btn btn-ghost text-3xl font-bold">Professional Hockeys Club</h1>
+                <p class="text-gray-400">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <div class="flex gap-6 mb-6 h-80">
+                <div class="hero " style="background-image: url(Hockey/Images/2.png);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content  text-neutral-content">
+                      <div class="">
+                        <h1 class="mb-5 text-xl font-bold">Junior Program</h1>
+                        <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                        <button class="btn btn-error">Get Started</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hero " style="background-image: url(Hockey/Images/3.png);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content  text-neutral-content">
+                      <div class="">
+                        <h1 class="mb-5 text-xl font-bold">Teenager Program</h1>
+                        <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                        <button class="btn btn-error">Get Started</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="">
+                <div class="hero h-96 " style="background-image: url(Hockey/Images/4.png);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-neutral-content">
+                      <div class="">
+                        <h1 class="mb-5 text-xl font-bold">Professional Program</h1>
+                        <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                            <button class="btn btn-error">Register Now!</button>
+                        
+                      </div>
+                    </div>
+                   
+                  </div>
+                  
+
+            </div>
+
+        </section>
+         <!-- section 3 -->
+        <section>
+           
+        <div class="text-center ">
+            <h2 class="btn btn-ghost text-3xl font-bold">Our New Products</h2>
+            <p class="text-gray-400">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br>
+                 dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        <div>
+            <div>
+            <div class="flex">
+                <div class="hero ">
+                    <div class="hero-content flex-col lg:flex-row">
+                      <img src="Hockey/Images/5.png" />
+                      <div>
+                        <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                        <p class="py-6 text-gray-400">Dolor sit amet consectetur. Ut urna diam <br>
+                             quis sagittis. </p>
+                            
+                                <p><span class="text-red-500  ">Price - $22.00</span><img src="Hockey/tractor (2).png" alt=""> Delivery Fee : Free </p>
+                            
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hero ">
+                    <div class="hero-content flex-col lg:flex-row">
+                      <img src="Hockey/Images/6.png" />
+                      <div>
+                        
+                        <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                        <p class="py-6 text-gray-400">Dolor sit amet consectetur. Ut urna diam <br>
+                             quis sagittis. </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+            </div>
+              <div class="flex">
+                <div class="hero ">
+                    <div class="hero-content flex-col lg:flex-row">
+                      <img src="Hockey/Images/7.png" />
+                      <div>
+                        <h1 class="text-xl font-bold">Cap For Hockeys</h1>
+                        <p class="py-6 text-gray-400">Dolor sit amet consectetur. Ut urna diam <br>
+                             quis sagittis. </p>
+                      </div>  
+                    </div>
+                </div>
+     
+                   <div class="hero ">
+                    <div class="hero-content flex-col lg:flex-row">
+                      <img src="Hockey/Images/8.png" />
+                      <div>
+                        
+                        <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                        <p class="py-6 text-gray-400">Dolor sit amet consectetur. Ut urna diam <br>
+                             quis sagittis. </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+              </div>
+             <div class="flex">
+                <div class="hero ">
+                    <div class="hero-content flex-col lg:flex-row">
+                      <img src="Hockey/Images/9.png" />
+                      <div>
+    
+                        <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                        <p class="py-6 text-gray-400">Dolor sit amet consectetur. Ut urna diam <br>
+                             quis sagittis. </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hero ">
+                    <div class="hero-content flex-col lg:flex-row">
+                      <img src="Hockey/Images/10.png" />
+                      <div>
+                        <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                        <p class="py-6 text-gray-400">Dolor sit amet consectetur. Ut urna diam <br>
+                             quis sagittis. </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+             </div>
+  
+
+        </div>
+        </div>
+        </section>
+        <!-- section 4 -->
+        <section>
+            <div class="text-center mt-16 ">
+                <h2 class="btn btn-ghost text-3xl font-bold">Clients Question</h2>
+                <p class="text-gray-400">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <div class="hero mt-16">
+                    <div class="hero-content flex-col   lg:flex-row">
+                      <img src="Hockey/Images/11.png" class="max-w-sm rounded-lg shadow-2xl" />
+                      <div>
+                        <div class="collapse collapse-arrow ">
+                            <input type="radio" name="my-accordion-2" checked="checked" /> 
+                            <div class="collapse-title text-xl font-medium">
+                                What does it mean to be the hokey?
+
+                            </div>
+                            <div class="collapse-content"> 
+                              <p>Something that's hokey is silly and sentimental you could also call it sappy or mawkish. A hokey speech is more likely to make people roll their eyes and squirm than to make them cry.</p>
+                            </div>
+                          </div>
+                          <div class="collapse collapse-arrow ">
+                            <input type="radio" name="my-accordion-2" /> 
+                            <div class="collapse-title text-xl font-medium">
+                                What does hoaky mean?
+                            </div>
+                            <div class="collapse-content"> 
+                              <p>hoaky (comparative hoakier, superlative hoakiest) Alternative spelling of hokey: phony, as if a hoax; noticeably contrived. Alternative spelling of hokey: corny; ridiculously sentimental.</p>
+                            </div>
+                          </div>
+                          <div class="collapse collapse-arrow ">
+                            <input type="radio" name="my-accordion-2" /> 
+                            <div class="collapse-title text-xl font-medium">
+                                Does hokey mean fake?
+
+                            </div>
+                            <div class="collapse-content"> 
+                              <p>Britannica Dictionary definition of HOKEY. US, informal + disapproving. 1. : obviously fake : phony. She gave us some hokey excuse for being late.</p>
+                            </div>
+                          </div>
+                          <div class="collapse collapse-arrow ">
+                            <input type="radio" name="my-accordion-2" /> 
+                            <div class="collapse-title text-xl font-medium">
+                                How do you spell Hokie?
+                            </div>
+                            <div class="collapse-content"> 
+                              <p>Spelled with an “ie” at the end, a Hokie is the mascot of Virginia Tech, short for Virginia Agricultural and Mechanical College and Polytechnic Institute. The Hokie Bird is a larger-than-life turkey often seen wandering the college campus in Blacksburg, Virginia
+                            </p>
+                            </div>
+                          </div>
+                          <div class="collapse collapse-arrow ">
+                            <input type="radio" name="my-accordion-2" /> 
+                            <div class="collapse-title text-xl font-medium">
+                                How old is the Hokey Cokey?
+                            </div>
+                            <div class="collapse-content"> 
+                              <p>There has been some controversy claiming that the hokey-pokey was a song composed originally to mock the Catholic Mass. However, this is considered false, as the song and dance originated in the United Kingdom in 1942, written by Jimmy Kennedy and originally referred to as The Hokey-Cokey.
+                            </p>
+                            </div>
+                          </div>
+                          
+                        
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+        </section>
+        
+        
+
+    </main>
+    <footer></footer>
     
 </body>
 </html>
